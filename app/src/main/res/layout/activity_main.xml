@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/task2">
+
+    </ImageView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#56B1B1B1">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/task_management_app"
+            android:textAlignment="center"
+
+            android:textSize="35sp"
+            android:layout_marginHorizontal="80dp"
+            android:layout_marginTop="80dp"
+            android:textStyle="bold">
+
+        </TextView>
+        <Button
+            android:id="@+id/startedbtn"
+            android:layout_width="250dp"
+            android:layout_marginTop="640dp"
+            android:layout_marginHorizontal="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn1"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:text="Get Started"
+            android:shadowColor="@color/black"
+            android:outlineSpotShadowColor="@color/black"
+            >
+
+        </Button>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
