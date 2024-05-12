@@ -30,19 +30,19 @@
             android:textStyle="bold">
 
         </TextView>
+
         <Button
             android:id="@+id/startedbtn"
-            android:layout_width="250dp"
-            android:layout_marginTop="640dp"
-            android:layout_marginHorizontal="150dp"
+            android:layout_width="213dp"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginTop="640dp"
             android:background="@drawable/btn1"
-            android:padding="5dp"
-            android:textStyle="bold"
-            android:text="Get Started"
-            android:shadowColor="@color/black"
             android:outlineSpotShadowColor="@color/black"
-            >
+            android:padding="5dp"
+            android:shadowColor="@color/black"
+            android:text="Get Started"
+            android:textStyle="bold">
 
         </Button>
 
